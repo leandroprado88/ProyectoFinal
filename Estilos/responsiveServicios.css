@@ -1,0 +1,167 @@
+@media only screen and (max-width:1200){}
+    .titulo {font-size: 50px;}
+
+@media only screen and (max-width: 992px){
+    img{width: 250px;
+        height: auto; }
+    .ul1 { 
+        padding: 0px;
+    }
+    a {font-size: 20px;}
+    
+    .titulo {
+        font-size: 20px;
+    }
+    .tabla{
+        font-size: 14px;
+    }
+
+    footer{ padding: 0px;
+        margin-top: 100px;}
+
+    .aFooter { font-size: 10px;}
+}
+
+@media only screen and (max-width: 768px){
+    .ul1 { 
+        padding: 0px;
+    }
+    a {font-size: 12px;}
+    
+    h2 {
+        font-size: 100px;
+    }
+
+    .asesoramiento {
+        font-size: 16px;
+    }
+
+    .explicacionasesoramiento {
+        font-size: 13px;    
+    }
+
+    .administracion {
+        font-size: 16px;
+    }
+    .explicacionadministracion {
+        font-size: 13px;
+    }
+
+    .asesoramientoAC {
+        font-size: 16px;
+    }
+    .explicacion3 {
+        font-size: 13px;
+    }
+
+    .iconos {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav {
+        width: 100%;
+        font-size: 1px;
+        padding: 0px;
+        margin-top: 0px;
+}
+}
+
+@media only screen and (max-width: 576px){
+    
+    .ul1 { 
+        padding: 0px;
+    }
+    a {font-size: 12px;}
+    
+    h2 {
+        font-size: 100px;
+    }
+
+    .asesoramiento {
+        font-size: 16px;
+    }
+
+    .explicacionasesoramiento {
+        font-size: 13px;    
+    }
+
+    .administracion {
+        font-size: 16px;
+    }
+    .explicacionadministracion {
+        font-size: 13px;
+    }
+
+    .asesoramientoAC {
+        font-size: 16px;
+    }
+    .explicacion3 {
+        font-size: 13px;
+    }
+
+    .iconos {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav {
+        width: 100%;
+        font-size: 1px;
+        padding: 0px;
+        margin-top: 0px;
+}
+}
+    
+
+    
+@media only screen and (max-width: 320px){
+   
+    .ul1 { 
+        padding: 0px;
+    }
+    a {font-size: 12px;}
+    
+    h2 {
+        font-size: 100px;
+    }
+
+    .asesoramiento {
+        font-size: 14px;
+    }
+
+    .explicacionasesoramiento {
+        font-size: 14px;    
+    }
+
+    .administracion {
+        font-size: 14px;
+    }
+    .explicacionadministracion {
+        font-size: 14px;
+    }
+
+    .asesoramientoAC {
+        font-size: 14px;
+    }
+    .explicacion3 {
+        font-size: 14px;
+    }
+
+    .iconos {
+        width: 50px;
+        height: 50px;
+    }
+    .nav {
+        flex-direction: column;
+        width: 100%;
+        font-size: 8px;
+        padding: 0px;
+        margin-top: 0px;
+}
+   
+    .redes {
+        padding: 0px;
+    }
+    
+}

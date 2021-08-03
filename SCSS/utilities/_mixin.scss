@@ -1,0 +1,10 @@
+@mixin footer2($widht,$height,$text-align,){
+    width: $widht;
+    height: $height;    
+    text-align: $text-align
+    
+}
+
+.footer2 {
+     @include footer2 (100%,20px,center,);
+}

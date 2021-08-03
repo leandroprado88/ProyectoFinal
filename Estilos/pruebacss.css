@@ -1,0 +1,88 @@
+@charset "UTF-8";
+.footer2 {
+  width: 100%;
+  height: 20px;
+  text-align: center; }
+
+.container {
+  justify-content: center; }
+
+.col-sm {
+  margin-top: 40px;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  margin-left: 40px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #f1f6fc;
+  color: rgba(37, 37, 37, 0.253);
+  margin-top: 200px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 5px;
+  width: 100%;
+  text-decoration: none; }
+
+.nav-link {
+  color: rgba(37, 37, 37, 0.253); }
+
+/* Mi constante */
+.listaCompañias {
+  color: #040468;
+  font-family: 'PT Sans', sans-serif; }
+
+body {
+  background-color: #f1f6fc; }
+
+a {
+  text-decoration: none; }
+
+.Compañias {
+  color: black;
+  background-color: rgb 241, 246, 252;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: 'Mate SC', serif; }
+
+ul {
+  list-style: none; }
+  ul li {
+    background-color: rgb 241, 246, 252; }
+    ul li a {
+      color: #040468; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  background-color: GRAY;
+  color: black;
+  border-radius: 10px; }
+
+.redes, .telefono, .instagram, .mail, .celular {
+  font-size: 20px;
+  background-color: #f1f6fc;
+  font-family: 'Caveat', cursive; 
+  width: 100%;}
+
+.telefono {
+  color: #999999; }
+
+.instagram {
+  color: #999999; }
+
+.mail {
+  color: #999999; }
+
+.celular {
+  color: #999999; }

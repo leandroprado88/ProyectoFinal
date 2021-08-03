@@ -1,0 +1,43 @@
+$color: azul; /* Mi constante */
+.listaCompañias {
+      @if $color == azul {
+            color: rgb(4, 4, 104);
+            font-family: 'PT Sans', sans-serif;}
+            
+      @else if $color == rojo{
+                 color: red;
+                 font-family: Arial, Helvetica, sans-serif;}
+      @else if $color == verde {
+                color: green;}
+      @else if $color == rosa {
+                color: pink;}
+      @else {
+                color: black;
+      }
+}
+
+.redes {
+      font-size: 20px;
+      background-color: rgb(241, 246, 252);
+      font-family: 'Caveat', cursive;
+  }
+  
+  .telefono {
+      @extend .redes;
+      color: rgb(153, 153, 153);
+  }
+  .instagram {
+      @extend .redes;
+      color: rgb(153, 153, 153);
+  }
+  
+  .mail {
+      @extend .redes;
+      color: rgb(153, 153, 153);
+  }
+  
+  .celular {
+      @extend .redes;
+      color: rgb(153, 153, 153);
+  }
+  

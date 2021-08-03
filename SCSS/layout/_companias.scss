@@ -1,0 +1,27 @@
+@import "utilities/_variables.scss";
+
+
+.Compañias { 
+    color: $letraNegra;
+    background-color: rgb (241,246,252);
+    margin-top: 40px;
+    width: 100%;
+    text-align:center;
+    justify-content: center;
+    font-style:italic;
+    font-weight:bolder;
+    font-family: 'Mate SC', serif;
+}
+
+
+ul {
+    list-style: none;
+        li {
+            background-color: $colorFondo;
+            
+            a { 
+                color:$colorLista;
+            }
+        }
+}
+
