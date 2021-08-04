@@ -4,6 +4,9 @@
   height: 20px;
   text-align: center; }
 
+body {
+  background-color: #f1f6fc; }
+
 .container {
   justify-content: center; }
 
@@ -11,9 +14,15 @@
   margin-top: 40px;
   justify-content: center;
   text-align: center;
-  justify-items: center;
-  margin-left: 40px;
-}
+  justify-items: center; }
+
+.footer1 {
+  width: 100%;
+  background-color: #f1f6fc; }
+
+.footer2 {
+  width: 100%;
+  background-color: #f1f6fc; }
 
 .nav {
   display: flex;
@@ -37,21 +46,40 @@
   color: #040468;
   font-family: 'PT Sans', sans-serif; }
 
-body {
-  background-color: #f1f6fc; }
+.redes, .telefono, .instagram, .mail, .celular {
+  font-size: 20px;
+  background-color: #f1f6fc;
+  font-family: 'Caveat', cursive; }
 
-a {
-  text-decoration: none; }
+.telefono {
+  color: #999999; }
+
+.instagram {
+  color: #999999; }
+
+.mail {
+  color: #999999; }
+
+.celular {
+  color: #999999; }
 
 .Compañias {
   color: black;
   background-color: rgb 241, 246, 252;
+  margin-top: 40px;
   width: 100%;
   text-align: center;
   justify-content: center;
   font-style: italic;
   font-weight: bolder;
   font-family: 'Mate SC', serif; }
+
+.container {
+  text-align: center;
+  background-color: rgb 241, 246, 252; }
+
+.row {
+  margin: 0px; }
 
 ul {
   list-style: none; }
@@ -68,21 +96,3 @@ a:hover {
   background-color: GRAY;
   color: black;
   border-radius: 10px; }
-
-.redes, .telefono, .instagram, .mail, .celular {
-  font-size: 20px;
-  background-color: #f1f6fc;
-  font-family: 'Caveat', cursive; 
-  width: 100%;}
-
-.telefono {
-  color: #999999; }
-
-.instagram {
-  color: #999999; }
-
-.mail {
-  color: #999999; }
-
-.celular {
-  color: #999999; }

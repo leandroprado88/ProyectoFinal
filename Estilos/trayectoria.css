@@ -2,15 +2,7 @@ body {background-color: rgb(241, 246, 252);}
 
 a {text-decoration: none;}
 
-/*.menuprincipal { 
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    width: 100%;
-           
-}
-*/
+
 .ul1 { 
     display: flex;
     justify-content: space-evenly;
@@ -22,7 +14,6 @@ a {text-decoration: none;}
 
 
 .imagen { 
-    grid-area: imagen;
     align-items: center;
     align-content: center;
     justify-self: center;
