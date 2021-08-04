@@ -106,6 +106,7 @@
     }
 
     .nav {
+        flex-direction: column;
         width: 100%;
         font-size: 1px;
         padding: 0px;
@@ -152,13 +153,14 @@
         width: 50px;
         height: 50px;
     }
-    .nav {
-        flex-direction: column;
+     .nav {
         width: 100%;
-        font-size: 8px;
+        flex-direction: column;
+        font-size: 1px;
         padding: 0px;
-        margin: 10px;
-}
+        margin-top: 0px;
+    
+    }
    
     .redes {
         padding: 0px;
